@@ -451,3 +451,6 @@ $database = $db->tampil_data();
         <p>Data tidak ditemukan.</p>
     <?php endif; ?>
 ```
+
+## Output Lecturers
+## Output Course lecturers
