@@ -20,7 +20,7 @@ private $host = "localhost";
 private $username = "root";
 ```
 
-- Menyimpan kata sandi untuk database (koosng atau "")
+- Menyimpan kata sandi untuk database (kosong atau "")
 
 ```php
 private $password = "";
