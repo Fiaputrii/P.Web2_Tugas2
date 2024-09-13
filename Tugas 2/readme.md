@@ -102,7 +102,9 @@ return $lecturers;
 - Hal yang sama juga di lakukan di dalam Class Course_lecturers
 
 ```php
-public function tampil_data() {
+class Course_lecturers extends Database {
+   
+    public function tampil_data() {
         $query = "SELECT * FROM course_lecturers";
         $result = mysqli_query($this->koneksi, $query);
         $courseLecturers = [];
