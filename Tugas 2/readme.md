@@ -453,4 +453,9 @@ $database = $db->tampil_data();
 ```
 
 ## Output Lecturers
+
+![Cuplikan layar 2024-09-14 062227](https://github.com/user-attachments/assets/6104485e-a775-44f2-90e7-73af180b8ca0)
+
 ## Output Course lecturers
+
+![Cuplikan layar 2024-09-14 062244](https://github.com/user-attachments/assets/20c6b44f-23fe-44a4-a57d-686c6627297d)
