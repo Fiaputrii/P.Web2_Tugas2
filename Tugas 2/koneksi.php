@@ -1,6 +1,6 @@
 <?php 
 
-class Database {
+class Database { //Encapsulation
     private $host = "localhost";
     private $username = "root";
     private $password = "";
@@ -19,8 +19,8 @@ class Database {
     }
 }
 
-class Lecturers extends Database {
-    public function tampil_data() {
+class Lecturers extends Database { //Inheritance
+    public function tampil_data() { //Polymorphism
         $query = "SELECT * FROM lecturers";
         $result = mysqli_query($this->koneksi, $query);
         $lecturers = [];
@@ -33,9 +33,8 @@ class Lecturers extends Database {
     }
 }
 
-class Course_lecturers extends Database {
-   
-    public function tampil_data() {
+class Course_lecturers extends Database { //Inheritance
+    public function tampil_data() { //Polymorphism
         $query = "SELECT * FROM course_lecturers";
         $result = mysqli_query($this->koneksi, $query);
         $courseLecturers = [];
