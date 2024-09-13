@@ -447,6 +447,7 @@ $database = $db->tampil_data();
 
 ```php
 <?php else: ?>
+        <?php if (!empty($database)) : ?>
         <p>Data tidak ditemukan.</p>
     <?php endif; ?>
 ```
