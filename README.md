@@ -9,7 +9,9 @@
 📫 How to reach me **alifiaputriditya@gmail.com**
 
 <h1> Tugas 2</h1>
-
+<p> Tugas ini dibuat untuk memenuhi Mata Kuliah Pemrograman Web 2. <br>
+Penjelasan singkat mengenai OOP. 
+OOP adalah OOP (Object-Oriented Programming) adalah paradigma pemrograman yang berfokus pada objek-objek dalam pemrograman</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
