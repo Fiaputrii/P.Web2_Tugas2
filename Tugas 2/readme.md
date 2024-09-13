@@ -126,7 +126,7 @@ include('koneksi.php');
 $db = new lecturers();
 $lecturers = $db->tampil_data();
 ```
-- Membuat desian tampilan web untuk tabel Lecturers (desain ini bisa di temukan di internet)
+- Membuat design tampilan web untuk tabel Lecturers (desain ini bisa di temukan di internet)
 
 ```php
 <!DOCTYPE html>
@@ -298,7 +298,7 @@ $db = new course_lecturers();
 $database = $db->tampil_data();
 ```
 
-- Membuat desian tampilan web untuk tabel Course_Lecturers (desain ini bisa di temukan di internet)
+- Membuat design tampilan web untuk tabel Course_Lecturers (desain ini bisa di temukan di internet)
 
 ```php
 <!DOCTYPE html>
